@@ -1,278 +1,260 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+body{
+background-color: #F794B9;
 }
 .Digitalia{
-   height: 100vh;
-   width: 100%;
-   background-color: #FFB4FF;
-   background-size: cover;
-   background-position: center;
-   
+ height: 100vh;
+ width: 100%;
+ background-color: #F794B9;
+ background-size: cover;
+ background-position: center;
+ 
 }
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 .logo{
-    color: #4f5dad;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
+  color: white;
+  font-size: 60px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 8px 10px;
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 10px;
 }
 nav ul li a{
-    color: #4f5dad;
-    text-decoration: none;
-    font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
 }
 nav ul li a:hover{
-    color:#e90aa3;
-    transition:   .4s;
+  color:#e90aa3;
+  transition:   .4s;
 
 }
 .content{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-
-
-
-
-  }
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
 p{
-    color: #4f5dad;
-    margin: 20px 0px 20px;
-    font-size: 20px;
-    font-weight: lighter;
+  color:white;
+  margin: 20px 0px 20px;
+  font-size: 16px;
+  font-weight: lighter;
 }
-
-h5{
-    color:white;
-    letter-spacing: 2px;
-    font-size: 20px;
-
-}
-
 a{
-   width: 380px;
-   max-width: 100%;
-   position: relative;
-   color: #e90aa3;
-   font-size: 16px;
-   text-decoration: none;
-   font-weight: bold;
+ width: 380px;
+ max-width: 100%;
+ position: relative;
+ color: #e90aa3;
+ font-size: 16px;
+ text-decoration: none;
+ font-weight: bold;
 }
 
 .service{
-    background-color: #A287FB;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding: 100px 0px;
+  background-color: #A287FB;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 100px 0px;
 
 }
 .title h2{
-    color: black;
-    font-size: 40px;
-    width: 1130px;
-    margin:30px auto;
-    text-align: center;
+  color: black;
+  font-size: 40px;
+  width: 1130px;
+  margin:30px auto;
+  text-align: center;
 }
 .box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
 }
 .card{
-    height: 365px;  
-    width: 335px;
-    padding: 20px 35px;
-    background: #191919;
-    border-radius:  20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    
+  /* height: 365px;  
+  width: 335px; */
+  padding: 90px 12px;
+  background: #191919;
+  border-radius:  20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  
 
-}
-h5{
-    color:white;
-    font-size: 23px;
-    margin-bottom: 15px;    
 }
 .pra p{
-    color: white;
-    font-weight: lighter;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
+  color: white;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
 }
 .card .button{
-    background-color: #e90aa3;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transition: 4s;
+  background-color: #e90aa3;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 4s;
 }
 .nosotras{
-    background-color: #F794B9;
-    background-size: cover;
-    width: 100%;
-    padding: 100px 0px;
+  background-color: #F794B9;
+  background-size: cover;
+  width: 100%;
+  padding: 100px 0px;
 
 }
-.title h2{
-    color: black;
-    font-size: 40px;
-    width: 1130px;
-    margin:30px auto;
-    text-align: center;
-}
 .box2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
 }
 .card2{
-    height: 365px;  
-    width: 335px;
-    padding: 20px 35px;
-    border-radius:  20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    
+  height: 365px;  
+  width: 335px;
+  padding: 20px 35px;
+  border-radius:  20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  
 
 }
 h5{
-    color:white;
-    font-size: 23px;
-    font-weight: bold;
-    margin-bottom: 15px;    
+  color:white;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 15px;    
+  letter-spacing: 2px;
 }
 .pra2 p{
-    color: white;
-    font-weight: lighter;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
+  color: white;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
 }
 .card2 .button{
-    background-color: #e90aa3;
-    color: black;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transition: 4s;
+  background-color: #e90aa3;
+  color: black;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 4s;
 }
 /* <------------------------------------Footer--------------------------------------> */
 footer {
-  background-color: #A287FB;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+background-color: #A287FB;
+color: #fff;
+padding: 20px;
+text-align: center;
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
+max-width: 1200px;
+margin: 0 auto;
 }
 .footer-content-container{
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  line-height: 27px;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+line-height: 27px;
 
 }
 .social-container{
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 100%   
+justify-content: center;
+align-items: center;
+height: 30px;
+width: 100%   
 }
 
-/* Media queries para pantallas mas pequeñas */
-@media only screen and (max-width: 600px) {
-    /* Adjust font sizes */
-    .Digitalia h2 {
-      font-size: 1.5em;
-    }
-    .Digitalia p {
-      font-size: 0.9em;
-    }
-    .title h2 {
-      font-size: 1.2em;
-    }
-    .box {
-      width: 100%;
-    }
-    .card {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-    .box2 {
-      width: 100%;
-    }
-    .card2 {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  }
-  
-  /* Media queries para pantallas medianas */
-  @media only screen and (min-width: 601px) and (max-width: 900px) {
-    /* Adjust font sizes */
-    .Digitalia h2 {
-      font-size: 2em;
-    }
-    .Digitalia p {
-      font-size: 1em;
-    }
-    .title h2 {
-      font-size: 1.5em;
-    }
-    .box {
-      width: 100%;
-    }
-    .card {
-      width: 45%;
-      margin-right: 5%;
-      margin-bottom: 10px;
-    }
-    .card:last-child {
-      margin-right: 0;
-    }
-    .box2 {
-      width: 100%;
-    }
-    .card2 {
-      width: 45%;
-      margin-right: 5%;
-      margin-bottom: 10px;
-    }
-    .card2:last-child {
-      margin-right: 0;
-    }
-  }
-  
+/* Media queries para pantallas pantallas de escritorio */
+@media only screen and (max-width: 1100px) {
+/* Adjust font sizes */
+.Digitalia h2 {
+  font-size: 1.5em;
+}
+.Digitalia p {
+  font-size: 0.9em;
+}
+.title h2 {
+  font-size: 1.2em;
+}
+.box {
+  width: 100%;
+}
+.card {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.box2 {
+  width: 100%;
+}
+.card2 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+body {
+  font-size: 16px;
+}
+}
+
+/* Media queries para pantallas medianas */
+@media only screen and (min-width: 540px) and (max-width: 1160px) {
+/* Adjust font sizes */
+.Digitalia h2 {
+  font-size: 2em;
+}
+.Digitalia p {
+  font-size: 1em;
+}
+.title h2 {
+  font-size: 1.5em;
+}
+.box {
+  width: 100%;
+}
+.card {
+  width: 45%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.box2 {
+  width: 100%;
+}
+.card2 {
+  width: 45%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+.card2:last-child {
+  margin-right: 0;
+}
+}
