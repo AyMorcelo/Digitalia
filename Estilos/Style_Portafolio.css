@@ -206,6 +206,7 @@ width: 100%
 }
 .box {
   width: 100%;
+  flex-direction: column;
 }
 .card {
   width: 100%;
@@ -213,6 +214,7 @@ width: 100%
 }
 .box2 {
   width: 100%;
+  flex-direction: column;
 }
 .card2 {
   width: 100%;
