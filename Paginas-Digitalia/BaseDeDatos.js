@@ -9,14 +9,13 @@ fetch('BaseDeDatosDigitalia.json')
       // Generar un nuevo ID para el servicio
       const nuevoId = servicios.length > 0 ? servicios[servicios.length - 1].id + 1 : 1;
       
-      // Agregar el nuevo servicio a la base de datos
       const servicio = { id: nuevoId, ...nuevoServicio };
       servicios.push(servicio);
 
       console.log('Nuevo servicio agregado:', servicio);
     }
 
-    // Ejemplo de uso: Agregar un nuevo servicio
+    // Ejemplo de uso
     const nuevoServicio = {
       nombre: 'Servicio de SEO',
       descripcion: 'Optimización de motores de búsqueda para mejorar la visibilidad en línea.',
