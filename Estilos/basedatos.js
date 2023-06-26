@@ -7,9 +7,16 @@
 
 // let jsonConvertido2 = JSON.parse(jsonDatabase);
 
+function generarNuevoId() {
+  // Obtener el último ID existente
+  let ultimoId = baseDatos.servicios[baseDatos.servicios.length - 1].id;
 
+  // Incrementar el último ID y devolver el nuevo ID
+  return ultimoId + 1;
+}
 
 // let nuevaData = {
+//     id: generarNuevoId(),
 //     "nombre": "Nuevo servicio agregado",
 //     "descripcion": "Descripción del nuevo servicio agregado",
 //     "costo": 100,
