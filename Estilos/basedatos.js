@@ -1,5 +1,5 @@
 
-// comentamos la primera parte de la base de datos para que no interfiera con la captura de datos del formulario
+// Ya que la carga de la base de datos y la captura de datos del formulario ocurren en el mismo bloque de código, se ejecutarán secuencialmente.
 
 // let baseDatos = require("./baseDatos.json");
 
@@ -7,22 +7,33 @@
 
 // let jsonConvertido2 = JSON.parse(jsonDatabase);
 
+const fs = require("fs");
 
+// Cargaremos el contenido del archivo baseDatos.json
+let baseDatosRaw = fs.readFileSync("./baseDatos.json");
+let baseDatos = JSON.parse(baseDatosRaw);
 
-// let nuevaData = {
-//     "nombre": "Nuevo servicio agregado",
-//     "descripcion": "Descripción del nuevo servicio agregado",
-//     "costo": 100,
-//     "duracion": "2 semanas"}
+function generarNuevoId() {
+  // Obtenenemos el último ID existente
+  let ultimoId = baseDatos.servicios[baseDatos.servicios.length - 1].id;
 
+  // Incrementamos el último ID y devolvemos el nuevo ID
+  return ultimoId + 1;
+}
 
-// jsonConvertido2.servicios.push (nuevaData);
+ let nuevaData = {
+  id: generarNuevoId(),
+  "nombre": "Nuevo servicio agregado",
+  "descripcion": "Descripción del nuevo servicio agregado",
+  "costo": 100,
+  "duracion": "2 semanas"
+ };
 
+baseDatos.servicios.push(nuevaData);
 
-// let jsonDatabase2 = JSON.stringify(jsonConvertido2);
+let jsonDatabase2 = JSON.stringify(baseDatos);
 
-
-// console.log(jsonDatabase2);
+console.log(jsonDatabase2);
 
 
 // captura datos página Formulario Digitalia:
