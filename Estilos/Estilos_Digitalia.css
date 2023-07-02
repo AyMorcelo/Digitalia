@@ -350,8 +350,19 @@ html {
     .container_suscrip {
       padding: 50px;
     }
-  
+      
  }
+
+ /* ------------ tabla de comentarios blog -------------*/
+ .tituloTabla { text-align: center;}
+ .styled-table {
+  border-collapse: collapse; margin: 25px 20px 20px 20px; font-size: 1em; min-width: 450px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+
+  .styled-tabletheadtr { background-color: #980081; color: #ffffff; text-align: center; }
+
+ .styled-tabletbodytr { border-bottom: 1px solid #dddddd; padding: 20px;}
+ 
+ 
     /* <-----------------------------------main ------------------------------------------->*/
     
     .container-main {
