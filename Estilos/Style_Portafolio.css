@@ -66,6 +66,26 @@ a{
  font-weight: bold;
 }
 
+/* Estilos para el botón del prompt*/
+    .btn-promocion {
+      background-color: #F794B9;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .btn-promocion:hover {
+      background-color: #F794B9;
+    }
+
 .service{
   background-color: #A287FB;
   background-size: cover;
