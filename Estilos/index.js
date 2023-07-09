@@ -29,3 +29,29 @@ const listUsers = async () => {
 window.addEventListener ("load", function () {
   listUsers ();
 })
+
+// Prompt promoción descuento en Portafolio:
+
+function mostrarPromocion() {
+  var palabraClave = prompt("Ingresa la palabra Digitalia y recibe un 15% de descuento en todos nuestros servicios:");
+  
+
+  if (palabraClave === "Digitalia") {
+    var email = prompt("¡Felicidades! Has ingresado la palabra clave correcta. Ingresa tu dirección de correo electrónico para recibir tu código de descuento:");
+  }  else  {
+      alert("La palabra clave ingresada es incorrecta. Inténtalo nuevamente.");
+    
+    }
+     
+  re=/\S+@\S+\.\S+/
+	if (!re.exec(email)){
+		alert('email no valido');
+   	
+  } 
+  else {
+    alert("Tu código de descuento ha sido enviado a " + email + ". ¡Disfruta de tu promoción!");
+ }
+  
+}
+
+  

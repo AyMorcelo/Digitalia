@@ -5,8 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Digitalia | Blog sobre tecnología digital</title>
-        <link rel="stylesheet" href="../Estilos/Estilos_Digitalia.css">
-        
+        <link rel="stylesheet" href="../Estilos/Estilos_Digitalia.css">        
         <script src="https://kit.fontawesome.com/3aceae23f8.js" crossorigin="anonymous"></script>
         <script defer src="../Estilos/index.js"></script>
     
@@ -45,16 +44,37 @@
         <p class="paragraph">¡Descubre lo último en tecnología digital, descarga nuestros recursos y consulta a nuestras asesoras expertas para ayudarte en lo que necesites!</p>
         </div>
       </div>
-      <div class="containerbox">
-        <form action="/search" id="searchthis" method="get" style="display: inline;">
-          <input id="search-box" name="q" size="38" type="text" placeholder="Busca lo que quieres leer y pulsa intro" /> <input id="search-btn" type="submit" value="GO" /></form>
+      <div class="formatobtn">
+      <div class="buscarBuscador">
+        <input type="text" placeholder="¿Sobre qué quieres leer?" required />
+        <div class="btnBuscador">
+          <i class="fas fa-search icon"></i>
+        </div>
       </div>
+    </div>
         </div>
        </header>
 <!------------------ main ----------------------------->
 <div class="container-main">
 <main>
-            
+  <div class="contenedorTotalModal">
+  <div class="boton-modal">
+    <label for="btn-modal">
+      ¡Recuerda!
+    </label>
+  </div>
+  <input type="checkbox" id="btn-modal">
+  <div class="container-modal">
+    <div class="content-modal">
+      <h2>¡Bienvenido!</h2>
+      <p><b>¡Suscríbete</b> a nuestro Blog para recibir las últimas novedades sobre el mundo digital y beneficiarte de <b>descuentos</b> increíbles!</p>
+    <div class="btn-cerrar">
+      <label for="btn-modal">Cerrar</label>
+    </div>
+    </div>
+    <label for="btn-modal" class="cerrar-modal"></label>
+  </div>
+</div>    
     <div class="title1">
     <h2>Lo más reciente del blog</h2>
     </div>

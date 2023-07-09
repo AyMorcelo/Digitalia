@@ -1,142 +1,247 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | Digitalia</title>
-    <link rel="stylesheet" type="text/css" href="../Estilos/Style_Portafolio.css">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Satisfy&display=swap');
-    </style>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio | Digitalia, todo sobre tecnología digital</title>
+        <link rel="stylesheet" href="../Estilos/Estilos_Digitalia.css">
+       
+        <script src="https://kit.fontawesome.com/3aceae23f8.js" crossorigin="anonymous"></script>
+        
+      
+      <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&family=Satisfy&display=swap');
+       body {
+        background-image: url(../Gallery/compress/verde_fondo.jpg);
+        background-size: cover;
+        color: whitesmoke;
+         
+          
+       }
+       </style>
 </head>
 <body>
-    <!----Primera sección---->
-  
-    <div class="Digitalia">
-      <nav>
-        <h1 class="logo">Portafolio</h1>
-        <ul>
-          <li><a href="Index_Digitalia.html">Volver al Home</a></li>
-          <li><a href="Blog_Digitalia.html">Ir al Blog</a></li>
-          <li><a href="Suscripcion_PF_JUMP.html">Ir a Suscripción</a></li>   
-          <li><a href="Recursos_PF_JUMP.html">Ir a Recursos</a></li>
-        </ul>  
-      </nav>
+  <header>
+   
+    <div class="header">
+      <nav class="topnav">
+        <a href="../Paginas-Digitalia/Index_Digitalia.html" class="logo"><img src="../Gallery/compress/logo_Digitalia.png" width="60%"  alt="Logo Digitalia"></a>
+        
+          <a href="../Paginas-Digitalia/Index_Digitalia.html" class="logo-movil">Digitalia</a>
+        
+        <button class="nav-toggle" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+       </button>
+          <ul class="nav-menu">
+
+        <li class="nav-menu-item"><a href="Index_Digitalia.html" class="nav-menu-link">Home</a></li>
+        <li class="nav-menu-item"><a href="Blog_Digitalia.html" class="nav-menu-link">Blog</a></li>
+        <li class="nav-menu-item"><a href="Portafolio_PF_JUMP.html" class="nav-menu-link">Portafolio</a></li>
+        <li class="nav-menu-item"><a href="Suscripcion_PF_JUMP.html" class="nav-menu-link">Suscripción</a></li>
+        <li class="nav-menu-item"><a href="Recursos_PF_JUMP.html" class="nav-menu-link">Recursos</a></li>
+
+     </ul>
+    </div>
+  </nav>
+</div>
+</header>
     <!-------Portada del inicio------->
-      <div class="content">
-              <h2>¡Somos el equipo de <span>Digitalia!</span> </h2>
-              <p>Felices de introducirte al mundo del marketing, e-commerce, tendencias web y todo lo relacionado a la tecnología. </p>
-              <img src="../Gallery/portada.jpeg" alt="imagen decorativa inicio" width="500" height="300">
-              <h3> Conoce nuestros servicios y el equipo</h3>
-             
+    
+    <section id="menu">
+      <div class="tile about-tile">
+        <a href="#about" id="boton">
+          <div class="front"></div>
+          <div class="back">NOSOTROS</div>
+        </a>
       </div>
-    </div>
-  
-    <!-----sección de servicios here----------->
-    <div class="service">
-    <div class="title">
-      <h2>Nuestros servicios</h2>
-    </div>
+      <div class="tile projects-tile">
+        <a href="#titulo-secciones2">
+          <div class="front"></div>
+          <div class="back">SERVICIOS</div>
+        </a>
+      </div>
+    </section>
+    <div class="btn-padd">
+    <button class="btn-promocion" onclick="mostrarPromocion()">¡Clica y obtén una promoción especial!</button>
   </div>
-    <div class="box">
-      <div class="card">
-        <img src="../Gallery/chart.jpeg" alt="imagen de servicio mencionado" width="90" height="80">
-        <h5>Planificación de Marketing</h5>
-        <div class="pra">
-          <p>La planificación implica investigación de mercado, diagnóstico de empresas y proyección de escenarios
-          para definir estrategias con más confianza.</p>
-          
-          <p style="text-align: center;">
-            <a class="button" href="#">Solicitar</a>
+
+    <!-----sección de nosotros here----------->
+   
+    <div class="titulo-secciones">
+      <h2>¡Conoce nuestro equipo!</h2>
+      <p>Ponle cara al equipo Digitalia; un proyecto creado con mucha ilusión y un objetivo común: ¡pasión por lo digital!</p>
+      </div>
+    <section id="about">
+      <div class="tile tile-1">
+        <div>
+          <h2>Stevely Medina</h2>
+          <p>
+            Responsable de crear y gestionar la presencia de una empresa
+            en las redes sociales, dominando diversas herramientas
           </p>
+          <img src="../Gallery/compress/www.thispersondoesnotexist.jpg" alt="Stevely Medina" height="100"/>
+          <div class="button-margin">
+            <a class="button" href="#contact">Contactarla</a>
+          </div>
         </div>
-        </div>
-        <div class="box">
-          <div class="card">
-            <img src="../Gallery/compu.jpeg" alt="imagen de servicio mencionado" width="90" height="80">
-            <h5>Creación y gestión de campañas</h5>
-            <div class="pra">
-              <p>Es fundamental para el éxito de cualquier empresa. Desde la promoción de productos y servicios
-                 hasta la generación de ingresos y la medición del éxito.</p>
-              
-              <p style="text-align: center;">
-                <a class="button" href="#">Solicitar</a>
-              </p>
-            </div>
-            </div>
-            <div class="box">
-              <div class="card">
-                <img src="../Gallery/code-basededatos.jpeg" alt="imagen de servicio mencionado" width="90" height="80">
-                <h5>Diseño y desarrollo web</h5>
-                <div class="pra">
-                  <p>Tarjetas de presentación, carpetas, vallas publicitarias, diseños de sitios web, tarjetas de redes 
-                    sociales y mucho más.</p>
-                  
-                  <p style="text-align: center;">
-                    <a class="button" href="#">Solicitar</a>
-                  </p>
-                </div>
-                </div>
       </div>
-    </div>
-    </div>
+      <div class="tile tile-2">
+        <div>
+          <h2>Aylin Morcelo</h2>
+          <p>
+            Encargada de crear diseños visuales para sitios web,
+            utilizando herramientas de diseño y lenguajes de programación
+          </p>
+          <img src="../Gallery/compress/www.thispersondoesnotexist2.jpg" alt="Aylin Morcelo" height="100" />
+          <div class="button-margin">
+            <a class="button" href="#contact">Contactarla</a>
+          </div>
+        </div>
+      </div>
+      <div class="tile tile-3">
+        <div>
+          <h2>Firulais</h2>
+          <p>
+            ¡Encargado de bienvenida!
+          </p>
+          <img src="../Gallery/compress/golden-retriever.jpg" alt="Firulais" height="100"/>
+          <div class="button-margin">
+          <a class="button" href="#contact">Contactarlo</a>
+        </div>
+        </div>
+      </div>
+    </section>
   
-     <!-----sección de sobre nosotras----------->
-     <div class="nosotras">
-      <div class="title">
-        <h2>Nuestro equipo</h2>
-      </div>
-      <div class="box2">
-        <div class="card2">
-          <img src="../Gallery/yo.jpeg" alt="imagen de persona mencionada" width="90" height="80">
-          <h5>Aylin Morcelo</h5> 
-          <div class="pra">
-            <p>Encargada de crear diseños visuales para sitios web, utilizando herramientas de diseño y lenguajes de programación. </p> 
-            <p style="text-align: center;">
+  
+     <!-----sección de sobre servicios ----------->
+     
+     <div id="titulo-secciones2">
+      <h2>Si necesitas ayuda con tu proyecto, ¡no dudes en llamarnos! <br> Podemos ofrecerte una gama de servicios muy completos adaptado a tus necesidades: </h2>
+    </div>
+     <section id="posts">
+     <div class="post post-1">
+        <a href="#">
+          <div class="title">
+            <h3>Planificación de Marketing</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              iure nesciunt atque nam illo dolore ipsa asperiores cumque
             </p>
-            <a class="button" href="#">Contactarla</a>
           </div>
+        </a>
+      </div>
+      <div class="post post-2">
+        <a href="#">
+          <div class="title">
+            <h3>Creación y gestión de campañas</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              iure nesciunt atque nam illo dolore ipsa asperiores cumque
+            </p>
           </div>
-          <div class="box2">
-            <div class="card2">
-              <img src="../Gallery/stively.jpeg" alt="imagen de persona mencionada" width="90" height="80">
-              <h5>Stevely Medina</h5>
-              <div class="pra2">
-                <p>Responsable de crear y gestionar la presencia de una empresa en las redes sociales, dominando diversas herramientas . </p>   
-                <p style="text-align: center;">
-                </p>
-                <a class="button" href="#">Contactarla</a>
-              </div>
-              </div>
-              <div class="box2">
-                <div class="card2">
-                  <img src="../Gallery/rosa.jpeg" alt="imagen de persona mencionada" width="90" height="80">
-                  <h5>Rosa Villamizar</h5>
-                  <div class="pra2">
-                    <p>Es responsable de la estrategia general de marketing de empresas, incluyendo publicidad en línea, SEO, email marketing y redes sociales. .</p>                
-                    <p style="text-align: center;">
-                    </p>
-                    <a class="button" href="#">Contactarla</a>
-                  </div>
-                  </div>
-        </div>
+        </a>
       </div>
+      <div class="post post-3">
+        <a href="#">
+          <div class="title">
+            <h3>RRPP / Gestión de crisis</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              iure nesciunt atque nam illo dolore ipsa asperiores cumque
+            </p>
+          </div>
+        </a>
       </div>
-     </div>
-     <footer>
-      <div class="footer-container">
-        <p>© Digitalia 2023 Todos los derechos reservados</p>
-        <div class="footer-content-container">
+      <div class="post post-4">
+        <a href="#">
+          <div class="title">
+            <h3>Diseño y desarrollo web</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              iure nesciunt atque nam illo dolore ipsa asperiores cumque
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="post post-5">
+        <a href="#">
+          <div class="title">
+            <h3>Publicidad y Comunicación corporativa</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              iure nesciunt atque nam illo dolore ipsa asperiores cumque
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="post post-6">
+        <a href="#">
+          <div class="title">
+            <h3>Creación de contenido</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              iure nesciunt atque nam illo dolore ipsa asperiores cumque
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+  
+
+     <section id="contact">
+      <form action="">
+        <h2>¡CONTÁCTANOS!</h2>
+        <label for="name">Nombre</label>
+        <input type="text" />
+
+        <label for="name">e-mail</label>
+        <input type="text" />
+
+        <label for="name">Consulta</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Enviar" />
+      </form>
+      
+    </section>
+     <!------------------ footer ----------------------------->
+<footer>
+  <div class="footer-container">
+      <div class="footer-content-container">
+          <h3 class="website-logo">Digitalia</h3>
+          <span class="footer-info">300 111 222</span>
+          <span class="footer-info">digitaliainfo@gmail.com</span>
+      </div>       
+      <div class="footer-menus">
+          <div class="footer-content-container">
+              <span class="menu-title">Links importantes</span>
+              <a href="Index_Digitalia.html" class="menu-item-footer">Home</a>
+              <a href="Blog_Digitalia.html" class="menu-item-footer">Blog</a>
+              <a href="Suscripcion_PF_JUMP.html" class="menu-item-footer">Suscripción</a>
+          </div>
+          <div class="footer-content-container">
+              <span class="menu-title">Legal</span>
+              <a href="#" class="menu-item-footer">Política de privacidad</a>
+              <a href="#" class="menu-item-footer">Cookies</a>
+              <a href="#" class="menu-item-footer">Términos y condiciones</a>
+          </div>
+      </div>     
+
+      <div class="footer-content-container">
           <span class="menu-title">Síguenos</span>
           <div class="social-container">
               <a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/32/1384/1384005.png" alt="Facebook"></a>
               <a href="https://www.instagram.com"><img src="https://cdn-icons-png.flaticon.com/32/1384/1384015.png" alt="Instagram"></a>
               <a href="https://www.linkedin.com"><img src="https://cdn-icons-png.flaticon.com/32/1384/1384014.png" alt="LinkedIn"></a>
-      </div>
-        </div>
           </div>
-    </footer>
+      </div>
+  </div>
+  <div class="copyright-container">
+      <span class="copyright">&copy;2023 Todos los derechos reservados.</span>
+  </div>
+</footer>
+<script src="../Estilos/index.js"></script>
   </body>
   </html>
   
