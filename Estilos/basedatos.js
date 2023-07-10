@@ -42,7 +42,7 @@ console.log(jsonDatabase2);
 
 function captura() {
  
-  let nomForm = document.getElementById ("nombre").value;
+  let nomForm = document.getElementById ("nombre").value.trim();
   let emailForm = document.getElementById ("email").value;
   let nacioForm = document.getElementById ("Nacionalidad").value;
   let edadForm = document.querySelector ('input[name=edad]:checked').value;
