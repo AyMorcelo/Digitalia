@@ -52,7 +52,7 @@ function captura() {
   
   localStorage.setItem ("recuperarInfo", nomForm + " " + emailForm + " " + nacioForm + " " + edadForm + " " + interesForm + " " + ocupaForm);
 
-  
+  alert("¡Te has suscrito correctamente!");
 }
 
 
