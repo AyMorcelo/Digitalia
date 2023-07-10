@@ -41,7 +41,7 @@ console.log(jsonDatabase2);
 
 
 function captura() {
-
+ 
   let nomForm = document.getElementById ("nombre").value;
   let emailForm = document.getElementById ("email").value;
   let nacioForm = document.getElementById ("Nacionalidad").value;
@@ -52,7 +52,7 @@ function captura() {
   
   localStorage.setItem ("recuperarInfo", nomForm + " " + emailForm + " " + nacioForm + " " + edadForm + " " + interesForm + " " + ocupaForm);
 
-  alert("¡Te has suscrito correctamente!");
+  alert("¡Gracias por suscribirte, " + nomForm + "!");
 }
 
 
