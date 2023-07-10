@@ -224,7 +224,8 @@ display: flex;
       /* font-weight: bolder; */
       padding-bottom: 2rem;
       text-align: center;
-      color:#113768
+      color:#113768;
+      margin-top: 5rem;
   }
 
   .paragraph {
