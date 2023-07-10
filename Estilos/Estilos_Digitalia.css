@@ -1319,8 +1319,15 @@ font-size: 1.5em;
       padding-bottom: 50px;
       }
 
-      .styled-table {
-        padding-bottom: 50%;
+      .divtabla {
+        padding-bottom: 100%;
         
-      }
+      };
+
+  
+  .styled-table { min-width: 200px; };
+
+  
+
+     
   };
