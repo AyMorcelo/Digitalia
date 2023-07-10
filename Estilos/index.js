@@ -1,3 +1,5 @@
+// menu nav
+
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -10,6 +12,9 @@ navToggle.addEventListener("click", () => {
     navToggle.setAttribute("aria-label", "Abrir menú");
   }
 });
+
+
+// API comentarios
 
 const listUsers = async () => {
   const response = await fetch ("https://jsonplaceholder.typicode.com/posts/1/comments");
@@ -30,16 +35,18 @@ window.addEventListener ("load", function () {
   listUsers ();
 })
 
+
 // Prompt promoción descuento en Portafolio:
 
 function mostrarPromocion() {
   var palabraClave = prompt("Ingresa la palabra Digitalia y recibe un 15% de descuento en todos nuestros servicios:");
   
 
-  if (palabraClave === "Digitalia") {
+  if (palabraClave === "Digitalia" || palabraClave === "digitalia" ) {
     var email = prompt("¡Felicidades! Has ingresado la palabra clave correcta. Ingresa tu dirección de correo electrónico para recibir tu código de descuento:");
   }  else  {
       alert("La palabra clave ingresada es incorrecta. Inténtalo nuevamente.");
+      return false;
     
     }
      
@@ -54,4 +61,4 @@ function mostrarPromocion() {
   
 }
 
-  
+
