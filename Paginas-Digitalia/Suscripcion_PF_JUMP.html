@@ -57,7 +57,7 @@
         <p>Te invitamos a completar el siguiente formulario:</p>
     </section>
 	<section>
-        <form>
+        <form onsubmit="event.preventDefault(); captura();">
 
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br><br>
