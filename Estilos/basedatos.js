@@ -52,7 +52,7 @@ function captura() {
   
   localStorage.setItem ("recuperarInfo", nomForm + " " + emailForm + " " + nacioForm + " " + edadForm + " " + interesForm + " " + ocupaForm);
 
-  alert("¡Gracias por suscribirte " + nomForm + "!");
+  alert(`¡Gracias por suscribirte ${nomForm}!`);
 }
 
 
