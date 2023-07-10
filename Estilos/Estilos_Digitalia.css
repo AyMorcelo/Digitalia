@@ -321,10 +321,20 @@ padding-bottom: 100%;
 
 .second .alineado {
  font-weight:200;
+
 }
+
+.second h6 {
+  font-weight:200;
+ 
+ }
+
 .titular {
   line-height: 30px;
+  font-size: 30px;
 }
+
+
 
 .third {
   display: flex;
